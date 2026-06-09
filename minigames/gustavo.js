@@ -1,6 +1,5 @@
 import leia from "readline-sync";
 
-var teste = leia.question("DIGITE O SEU NOME: ");
+var idade = leia.questionInt("DIGITE A SUA IDADE: ");
 
-console.log("SEU NOME É: " + teste);
-
+console.log("A SUA IDADE É: " + idade);
